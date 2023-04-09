@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+  </head>
+  <body>
+    <form action="#" method="post" name="myform">
+      ชื่อผู้ใช้งาน :<input type="text" name="Firsname" id="" /> <br />
+      นามสกุล :<input type="text" name="Lastname" id="" />
+    </form>
+    <select name="เพศ" id="">
+      <option value="ใส่เพศ">ใส่เพศ</option>
+      <option value="ชาย">ชาย</option>
+      <option value="หญิง">หญิง</option>
+    </select>
+    <h2>อัพโหลดเอกสาร:</h2>
+    <form action="#">
+      <label for="myfile">เลือก file:</label>
+      <input type="file" id="myfile" name="myfile" /><br /><br />
+      
+    </form>
+    <h2>เพื่อใส่อีเมล์:</h2>
+    <form action="/action_page.php">
+      <label for="email">Enter your email:</label>
+      <input type="email" id="email" name="email" />
+      
+    </form>
+    <br />
+    <form action="/#">
+      <label for="birthday">กรอกวันเกิด:</label>
+      <input type="date" id="birthday" name="birthday" />
+      
+    </form>
+    <br />
+
+    <h2>เพื่อกรอก GPAX</h2>
+    <form action="/#">
+      <label for="quantity">เพื่อกรอก GPAX:</label>
+      <input type="number" id="quantity" name="quantity" min="1" max="5" /> <br> <br>
+      <input type="submit" />
+    </form>
+    <br />
+    <button type="button" onclick="alert('Hello world!')">
+      คลิก เพื่อกดปุ่ม save
+    </button>
+  </body>
+</html>
